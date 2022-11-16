@@ -66,7 +66,7 @@ console.log(phoneNumbers);
 let sum = users.reduce((accum, user) => {
     return accum + +user["balance"].slice(1).split(",").join("");
 }, 0);
-    let sumStr = sum.toFixed(2)
+    let sumStr = sum.toFixed(2);
     console.log('$' + sumStr);
 
 
